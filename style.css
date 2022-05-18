@@ -1,0 +1,69 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  font-family: "Montserrat";
+}
+  
+.tipografia {
+  font-family: "Montserrat";
+  font-size: 20px;
+  margin-top: 5px;
+}
+  
+.upForm{
+  text-align: center;
+  margin-bottom: 5px;
+}
+  
+label{
+  font-family: "Montserrat";
+  font-size: 15px;
+  text-align: left;
+  padding-left: 50px;
+}
+  
+input{
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 15px;
+  width: 400px;
+  border-radius: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+  
+button{
+  background-color: #c4c4c4;
+  font-family: "Montserrat";
+  font-size: 15px;
+  border: none;
+  padding: 10px;
+  width:210px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.buttons {
+  Text-align: center;
+  margin-top: 25px;
+}
+
+.forget {
+  padding-left: 50px;
+  margin-top: 3px;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+  
+  
