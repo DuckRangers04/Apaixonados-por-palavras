@@ -9,8 +9,8 @@ Repositório de versionamento da aplicação do projeto 'Apaixonados por palavra
           Pedro Henrique Nascimento de Lima  / Programador - 508892;
           Vinícius Correia de Araújo Barroso / Designer / Conteudista / Revisor - 515055_
 
-Protótipo de média fidelidade.([url](https://www.figma.com/file/gqMqPaYhoqdmGo21cLBfRV/P1-adm?node-id=151%3A2))
-[Protótipo de alta.]([url](https://www.figma.com/file/EQyQqNzxfSQRGIrJNFXrlH/Prot%C3%B3tipo-de-Alta?node-id=151%3A2))
+([Protótipo de média fidelidade.](https://www.figma.com/file/gqMqPaYhoqdmGo21cLBfRV/P1-adm?node-id=151%3A2))
+([Protótipo de alta.](https://www.figma.com/file/EQyQqNzxfSQRGIrJNFXrlH/Prot%C3%B3tipo-de-Alta?node-id=151%3A2))
 
 
 Instruções para executar a aplicação(Embora ainda esteja incompleta):
