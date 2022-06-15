@@ -15,9 +15,9 @@ Repositório de versionamento da aplicação do projeto 'Apaixonados por palavra
 
 Instruções para executar a aplicação(Embora ainda esteja incompleta):
   1° Instalar o [xampp]([url](https://www.apachefriends.org/pt_br/index.html));
-  2° [Ativar o servidor local apache e o mysql para que um servidor local receba e faça as solitações do PHP e do Banco de dados(Mysql)]([url](https://www.youtube.com/watch?v=jqZ76rolI28));
+  2° ([Ativar o servidor local apache e o mysql para que um servidor local receba e faça as solitações do PHP e do Banco de dados(Mysql)](https://www.youtube.com/watch?v=jqZ76rolI28));
   3° Adicionar os arquivos da aplicação web em uma pasta com o nome de sua escolha, mas de preferência coloque um nome simples para facilitar;
   4° Colocar a pasta na pasta 'htdocs' do xampp.
-  5° [Acesse o site pela url do navegador através do servidor local criado pelo xampp.]([url](https://kinsta.com/pt/base-de-conhecimento/corrigir-o-xampp/))
+  5° ([Acesse o site pela url do navegador através do servidor local criado pelo xampp.](https://kinsta.com/pt/base-de-conhecimento/corrigir-o-xampp/))
   
   
