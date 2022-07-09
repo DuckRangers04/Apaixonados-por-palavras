@@ -1,0 +1,368 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  font-family: 'Mulish';
+  background: #F2F2F2;
+  margin-top: 10%;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+header {
+text-align: center;
+font-weight: bold;
+}
+
+header > img.logo {
+  width: 150px;
+}
+
+header > h1.login{
+  font-size: 2em;
+  padding: 20px;
+  margin: 0px;
+}
+
+header > p.nome {
+  font-size: 26px;
+  min-width: 300px;
+  padding: 20px;
+  margin: 0px;
+}
+
+/* .upForm{
+  text-align: center;
+  margin-bottom: 5px;
+  
+}
+.titulo{
+  color: #121212;
+  font-size: 32px;
+  font-weight: 800;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.nome {
+  color: #121212;
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+*/
+
+form {
+  color: #121212;
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+  
+/*main.form > p {
+  text-align: left;
+  margin-bottom: 1000px;
+}*/
+
+.inputLogin{
+    background: #F2F2F2;
+    color: #121212;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-size: 15px;
+    width: 90%;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer.botoes {
+  margin: auto;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  color: #162D4F;
+}
+
+.buttonSenha {
+  color: #121212;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  text-decoration: underline;
+}
+
+.buttonSenha:hover {
+  color: blue;
+  text-decoration-color: blue;
+}
+
+.botoes {
+  text-align: center;
+}
+
+.buttonCadastrar{
+    display: inline-block;
+    background-color: #162D4F;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 4px;
+    border: none;
+    width: 35%;
+    height: 45px;
+    border-radius: 15px;
+    margin-right: 5%;
+}
+
+
+.buttonCadastrar:hover {
+  background-color: #bdd7ff;
+}
+
+.buttonEntrar{
+    background-color: #162D4F;
+    font-size: 22px;
+    font-weight: 600;
+    border: none;
+    padding: 4px;
+    width: 35%;
+    height: 45px;
+    border-radius: 15px;
+    text-decoration: none;
+    display: inline-block;
+  
+}
+
+.buttonEntrar:hover {
+  background-color: #bdd7ff;
+}
+
+.buttonCancelar{
+    display: inline-block;
+    background-color: #162D4F;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 4px;
+    border: none;
+    width: 35%;
+    height: 45px;
+    border-radius: 15px;
+    margin-right: 5%;
+}
+
+.buttonCancelar:hover {
+  background-color: #bdd7ff;
+}
+
+.buttonConfirmar{
+    background-color: #162D4F;
+    font-size: 22px;
+    font-weight: 600;
+    border: none;
+    padding: 4px;
+    width: 35%;
+    height: 45px;
+    border-radius: 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.buttonConfirmar:hover {
+  background-color: #bdd7ff;
+}
+
+
+.logoImg {
+  margin-bottom:40px;
+  margin-right: 10px;
+  margin-left: 4%;
+  float:left;
+}
+
+.nomeTopo {
+  margin-bottom:40px;
+  font-weight: 800;
+  font-size: 16px;
+  float:left;
+}
+
+.busca {
+  display: inline-block;
+  margin-bottom:40px;
+  margin-top: 6px;
+  margin-left: 20px;
+  width: 40%;
+  padding: 4px;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+.bookImg {
+margin-bottom: 10px;
+border:none;
+}
+
+.books {
+  display: inline-block;
+}
+
+.book {
+  float: left;
+  margin-left: 4%
+}
+
+.bookName {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.bookAutor {
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+
+.navbar {
+  display: flex;
+  overflow-x: auto;
+  background-color: #162d4f;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+
+.navLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.navIcon {
+  background: none;
+}
+
+a {
+  background:none;
+}
+
+.bookInfo {
+  margin-left: 4%;
+  margin-right: 4%;
+  float: left;
+}
+.bookInfoName {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.bookInfoAutor {
+  font-size: 18px;
+}
+
+.bookInfoSinopse {
+  font-size: 14px;
+  margin-top: 60px;
+}
+
+.likeImg {
+  float: right;
+}
+
+.buttons{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.buttonSolicitar{
+  display: inline-block;
+  background-color: #162d4f;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  border: none;
+  padding: 4px;
+  height:40px;
+  width: 100%;
+  border-radius: 15px;
+  Text-align: center;
+  margin-top: 40px;
+}
+
+.buttonSolicitar:hover {
+  background-color: #bdd7ff;
+}
+
+.buttonCancelarSoli{
+  background-color: #162d4f;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  border: none;
+  padding: 4px;
+  height:40px;
+  width: 100%;
+  border-radius: 15px;
+  Text-align: center;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.buttonSolicitado {
+  background-color: #C4D8E2;
+ color: black;
+  font-size: 22px;
+  font-weight: 600;
+  border: none;
+  padding: 4px;
+  height:40px;
+  width: 100%;
+  border-radius: 15px;
+  Text-align: center;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.textWhite {
+  color: white;
+  text-decoration: none;
+}
+
+.textWhite:hover {
+    color: #121212;
+}
+
+.textBlack {
+  text-decoration: none;
+  color: #121212;
+}
+
+
+
+  
+  
