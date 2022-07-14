@@ -20,7 +20,7 @@ header > img.logo {
   width: 150px;
 }
 
-header > h1.login{
+header > h1.titulo{
   font-size: 2em;
   padding: 20px;
   margin: 0px;
@@ -32,42 +32,28 @@ header > p.nome {
   padding: 20px;
   margin: 0px;
 }
-
-/* .upForm{
-  text-align: center;
-  margin-bottom: 5px;
-  
-}
-.titulo{
-  color: #121212;
-  font-size: 32px;
-  font-weight: 800;
-  margin-top: 40px;
-  margin-bottom: 40px;
+button[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  text-align: left;
 }
 
-.nome {
-  color: #121212;
-  font-size: 28px;
-  font-weight: 600;
-  margin-top: 20px;
-}
-*/
-
-form {
+.textLogin {
   color: #121212;
   font-size: 22px;
   font-weight: 600;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 4%;
+  margin-right: 4%;
   margin-top: 35px;
   margin-bottom: 35px;
+  
 }
   
-/*main.form > p {
-  text-align: left;
-  margin-bottom: 1000px;
-}*/
 
 .inputLogin{
     background: #F2F2F2;
@@ -75,8 +61,8 @@ form {
     padding: 10px;
     margin-bottom: 20px;
     margin-top: 5px;
-    font-size: 15px;
-    width: 90%;
+    font-size: 16px;
+    width: 100%;
     border-radius: 15px;
     display: block;
     margin-left: auto;
@@ -125,6 +111,7 @@ footer a:hover {
     height: 45px;
     border-radius: 15px;
     margin-right: 5%;
+    margin-bottom: 40px;
 }
 
 
@@ -134,6 +121,7 @@ footer a:hover {
 
 .buttonEntrar{
     background-color: #162D4F;
+    color: white;
     font-size: 22px;
     font-weight: 600;
     border: none;
@@ -143,6 +131,8 @@ footer a:hover {
     border-radius: 15px;
     text-decoration: none;
     display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 40px;
   
 }
 
@@ -162,6 +152,8 @@ footer a:hover {
     height: 45px;
     border-radius: 15px;
     margin-right: 5%;
+    margin-bottom: 40px;
+    margin-top: 20px;
 }
 
 .buttonCancelar:hover {
@@ -170,6 +162,7 @@ footer a:hover {
 
 .buttonConfirmar{
     background-color: #162D4F;
+    color: white;
     font-size: 22px;
     font-weight: 600;
     border: none;
@@ -179,6 +172,8 @@ footer a:hover {
     border-radius: 15px;
     text-decoration: none;
     display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 20px;
 }
 
 .buttonConfirmar:hover {
@@ -197,7 +192,6 @@ footer a:hover {
   margin-bottom:40px;
   font-weight: 800;
   font-size: 16px;
-  float:left;
 }
 
 .busca {
@@ -212,28 +206,25 @@ footer a:hover {
 }
 
 .bookImg {
-margin-bottom: 10px;
-border:none;
-}
-
-.books {
-  display: inline-block;
-}
-
-.book {
-  float: left;
-  margin-left: 4%
-}
-
-.bookName {
-  font-size: 16px;
-  font-weight: 600;
-}
-
-.bookAutor {
-  font-size: 14px;
-  margin-bottom: 40px;
-}
+  margin-bottom: 10px;
+  border:none;
+  }
+  
+  
+  .book {
+    float: left;
+    margin-left: 4%;
+  }
+  
+  .bookName {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .bookAutor {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
 
 
 .navbar {
@@ -294,7 +285,7 @@ a {
   float: right;
 }
 
-.buttons{
+.btnSolicitarAlign{
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -318,24 +309,13 @@ a {
   background-color: #bdd7ff;
 }
 
-.buttonCancelarSoli{
-  background-color: #162d4f;
-  color: white;
-  font-size: 22px;
-  font-weight: 600;
-  border: none;
-  padding: 4px;
-  height:40px;
-  width: 100%;
-  border-radius: 15px;
-  Text-align: center;
-  display: inline-block;
-  margin-top: 10px;
+.buttonSolicitar >a:active {
+  color: #162d4f;
 }
 
 .buttonSolicitado {
   background-color: #C4D8E2;
- color: black;
+ color: #162d4f;
   font-size: 22px;
   font-weight: 600;
   border: none;
@@ -362,7 +342,175 @@ a {
   color: #121212;
 }
 
+.nomeFavoritos {
+  font-size: 28px;
+  font-weight: 600px;
+  text-align: center;
+}
 
+.livroCad {
+  font-size: 22px;
+  margin-top: 40px;
+  margin-left: 4%;
+  margin-right: 4%;
+  font-weight: 600;
+}
 
-  
+.inputCad{
+  background: #F2F2F2;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+  width: 100%;
+  border-radius: 15px;
+  display: block;
+  margin-left: none;
+  margin-right: 4%;
+}
+
+.adicionarImg {
+  background-color: #162d4f;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 4px;
+  height: 30px;
+  width: 40%;
+  border-radius: 10px;
+}
+.buttons{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.buttonConfirmarCad {
+  display: inline-block;
+ background-color: #162d4f;
+ color: white;
+ font-size: 22px;
+ font-weight: 600;
+ border: none;
+ padding: 4px;
+ height:40px;
+ width: 100%;
+ border-radius: 15px;
+ Text-align: center;
+ margin-top: 40px;
+ margin-bottom: 20px;
+}
+
+* {
+	box-sizing:border-box;
+}
+
+.container {
+	margin-right:4%;
+	margin-left:4%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+  border: none;
+}
+
+.table {
+	width:100%;
+  border: none;
+}
+
+.table-header {
+	display:flex;
+	width:100%;
+	background:#162D4F;
+	padding: 10px;
+  border-radius: 10px;
+}
+
+.table-row {
+	display:flex;
+	width:100%;
+	padding:10px;
+  border-radius: 10px;
+  background-color: #C4D8E2;
+  margin-top: 10px;
+}
+
+.table-data, .header-item {
+	flex: 1 1 20%;
+	text-align:center;
+  font-size: 14px;
+}
+
+.headerText {
+	color:white;
+  font-weight: 600;
+  font-size: 14px;
+	text-decoration: none;
+	position:relative;
+	display:inline-block;
+}
+
+table {
+	width:100%;
+  border: none;
+}
+
+tr {
+	display:flex;
+	width:100%;
+	padding:10px;
+  border-radius: 10px;
+  background-color: #C4D8E2;
+  margin-top: 10px;
+}
+
+td {
+ 	flex: 1 1 20%;
+	text-align:center;
+  font-size: 14px;
+}
+
+.buttonRecebido {
+  background-color: #162d4f;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  padding: 4px;
+  height:30px;
+  width: 70%;
+  border-radius: 10px;
+  Text-align: center;
+  display: inline-block;
+}
+
+input[type="file"] {
+  display: none;
+}
+label {
+background-color: #162d4f;
+color: white;
+font-size: 16px;
+border: none;
+padding: 4px;
+height: 30px;
+width: 40%;
+border-radius: 10px;
+text-align: center;
+display: block;
+cursor: pointer;
+}
+
+.inputCadNum{
+  background: #F2F2F2;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+  width: 20%;
+  border-radius: 15px;
+  display: block;
+  margin-left: none;
+  margin-right: 4%;
+}
   

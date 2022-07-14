@@ -5,7 +5,7 @@
   <script src="script.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>login</title>
+  <title>cadastro</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,8 +15,8 @@
 <body>
 
 <header>
-    <h1 class="login">
-      LOGIN
+    <h1 class="titulo">
+      Cadastro
     </h1>
 
     <img class="logo" src="Images/robo.png">
@@ -27,15 +27,15 @@
   
   </header>
   <main>
-<form method="post">
+<form class="textLogin" method="post">
   <main>
     <div class="form">
       <p>
         Matrícula
       </p>
   
-      <input class="inputLogin" type = "number" name="matri" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(this.minLenght, this.maxLength) ;"
-  minlenght="7" maxlength = "7" placeholder="Digite sua matrícula (7 números)">
+      <input class="inputLogin" type = "number" name="matri" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength) ;"
+   maxlength = "7" placeholder="Digite sua matrícula (7 números)">
   
       <p>
         E-mail
@@ -47,7 +47,7 @@
         Senha
       </p>
 
-      <input class="inputLogin" name="senha" type="password" minlength="8" maxlength="16" placeholder="Máximo 16 caracteres">
+      <input class="inputLogin" name="pass" type="password" minlength="8" maxlength="16" placeholder="Máximo 16 caracteres">
 
     </div>
 
@@ -56,16 +56,17 @@
 
   <footer>
     <div class="botoes">
-      <button class="buttonCancelar"><a class="textWhite" href="index.php">Cancelar</a></button>
-      <button class="buttonConfirmar" name="salvar"><a class="textWhite">Confirmar</button>
+    <a class="buttonText" href="index.php"> <input type = "button" class="buttonCancelar" value = "Cancelar"></a>
+    <a class="buttonText"><input type = "submit" class="buttonConfirmar" name = "salvar" value = "Confirmar"></a>
     </div>
     <?php
     include('conexao.php');
-  if (isset($_POST['salvar'])&& isset($_POST['matri'])&& isset($_POST['email']) && isset($_POST['senha'])){
+    if (isset($_POST['salvar'])&& isset($_POST['matri'])&& isset($_POST['email']) && isset($_POST['pass'])){
     
       $matri= mysqli_real_escape_string($mysqli,$_POST['matri']);
       $email= mysqli_real_escape_string($mysqli,$_POST['email']);
-      $senha= mysqli_real_escape_string($mysqli,$_POST['senha']);
+      $senha= mysqli_real_escape_string($mysqli,$_POST['pass']);
+      $cripto= password_hash($senha, PASSWORD_DEFAULT);
   
       //VALIDAÇÃO DE CAMPO VAZIO
       if ($matri=="" || $matri==null){
@@ -93,11 +94,12 @@
       if ($row[0] > 0 || $row2[0] > 0) {
       echo "<b style='color:red'>Esse usuário já existe.</b>";
       } else {
-        $sql = $mysqli->prepare("INSERT INTO user_com(matri,email,senha) VALUES ('$matri','$email','$senha')");
+        $sql = $mysqli->prepare("INSERT INTO user_com(matri,email,pass) VALUES ('$matri','$email','$cripto')");
         $sql->execute();
         echo "<b style='color:green'>Úsuario inserido com sucesso!</b>";
+      
       }
-   }
+    }
   ?>
   </footer>
   </form>
