@@ -3,14 +3,19 @@
 **Equipe de desenvolvimento:** _Duck Rangers_
 
 **Integrantes:**
-          <img src="/integrantes/Eduardo.jpeg" alt="Eduardo"/>
+          <img src="/integrantes/Eduardo.jpeg" width="100" heigth="100" alt="Eduardo"/>
           Eduardo Ferreira de Souza / Líder / Atendimento / Coordenador de testes - 511841;
-          <img src="/integrantes/Mariana.jpeg" alt="Mariana"/>
+          <img src="/integrantes/Mariana.jpeg" width="100" heigth="100" alt="Mariana"/>
           Mariana Fonteles Martins / Designer / Arquiteta da Informação - 511861;
-          <img src="/integrantes/Pedro.jpeg" alt="Pedro"/>
+          <img src="/integrantes/Pedro.jpeg" width="100" heigth="100" alt="Pedro"/>
           Pedro Henrique Nascimento de Lima  / Programador - 508892;
-          <img src="/integrantes/Vinícius.jpeg" alt="Pedro"/>
+          <img src="/integrantes/Vinícius.jpeg" width="100" heigth="100" alt="Pedro"/>
           Vinícius Correia de Araújo Barroso / Designer / Conteudista / Revisor - 515055 
+          
+          
+          
+          
+          
           Repositório de versionamento da aplicação do projeto 'Apaixonados por palavras' da professora Rita de Cássia, discente da Escola Estadual de Educação Profissional(E.E.E.P.) e coordenadora do curso técnico em redes de computadores. O projeto apaixonado por palavras visa incentivar o hábito da leitura pelos alunos com livros emprestados pela professora de ficção em vários gêneros diferentes. As anotações e empréstimos eram feitos a mão e muitas vezes a professora não estava disponível para realizar o empréstimo e os monitores estavam ocupados, logo o objetivo desta aplicação é acelerar este processo.
  ([Tabela de requisitos da aplicação.](https://docs.google.com/spreadsheets/d/1DGPASSUtO5HQpTbohfzK3-8MsBbXeJJw/edit?usp=sharing&ouid=107887245739175116478&rtpof=true&sd=true))
 ([Protótipo de média fidelidade.](https://www.figma.com/file/gqMqPaYhoqdmGo21cLBfRV/P1-adm?node-id=151%3A2))
