@@ -15,28 +15,38 @@
 </head>
 
 <body>
-  <form action="login.php" method="POST">
-  <div class="upForm">
-    <div class="titulo">LOGIN</div>
-    <img class="logo" width="200px" src="Images/robo.png">
-    <div class="nome">Apaixonados <br> por palavras</div>
-  </div>
+<header>
+    <h1 class="titulo">
+      LOGIN
+    </h1>
+
+    <img class="logo" src="Images/robo.png">
+
+    <p class="nome">
+      Apaixonados <br> por palavras
+    </p>
+  </header>  
+    <form action="login.php" class="textLogin" method="POST">
   <main>
-  <form action="" method="POST">
   <div class="form">
     <p>Email</p>
     <input type = "email" class="inputLogin" name="email" maxlength = "40" placeholder="Digite seu email (Máximo de 40 caracteres)">
      <p>Senha</p>
-    <input type="password" class="inputLogin" minlength="8" maxlength="12" name="senha" placeholder="Digite  sua senha(máximo de 16 caracteres)">
+    <input type="password" class="inputLogin" name="pass" minlength="8" maxlength="12"  placeholder="Digite  sua senha(máximo de 16 caracteres)">
       <button class = "buttonSenha"><a><p><u>Esqueci a senha</u></p></a>
     </button>
     </div>
-  <div class="form">
-      <button class="buttonCadastrar"><a class="textWhite" href="cadastro.php">Cadastrar</a></button>
-      <button class = "buttonEntrar" type="submit"><a class="textWhite">Entrar</a></button>
-  </div>
-  </form>
+    <footer>
+    <div class="botoes">
+    <a class="buttonText" href="cadastro.php"> <input type = "button" class="buttonCadastrar" value = "Cadastrar"></a>
+    <a class="buttonText"> <input type = "submit" class="buttonEntrar" value = "Entrar"></a>
+
+    </div>
+  </footer>
+    </form>
   </main>
+  
+  
 </body>
 
 </html>

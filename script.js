@@ -1,12 +1,10 @@
   
-  function funcao1(){
-var x;
-  var r= Window.alert("Digite seu email:");
-  if (r==true){
-    x = "você pressionou OK!";
-  }
-  else{
-    x = "Você pressionou Cancelar!";
-  }
-  document.getElementById("es").innerHTML=x;
-}
+    solicitar = (elemento) => {
+      elemento.value = "Livro solicitado";
+      elemento.classList.replace("buttonSolicitar", "buttonSolicitado");
+    }
+
+function deleteRow(r) {
+      var i = r.parentNode.parentNode.rowIndex;
+      document.getElementById("notiTable").deleteRow(i);
+    }
