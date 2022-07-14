@@ -3,20 +3,18 @@
 **Equipe de desenvolvimento:** _Duck Rangers_
 
 **Integrantes:**
-
           <img src="/integrantes/Eduardo.jpeg" width="100" heigth="100" alt="Eduardo"/> Eduardo Ferreira de Souza / Líder / Atendimento / Coordenador de testes - 511841;
-          
-          
-                    
           <img src="/integrantes/Mariana.jpeg" width="100" heigth="100" alt="Mariana"/> Mariana Fonteles Martins / Designer / Arquiteta da Informação - 511861;
-          
-          
-          
           <img src="/integrantes/Pedro.jpeg" width="100" heigth="100" alt="Pedro"/> Pedro Henrique Nascimento de Lima  / Programador - 508892;
-          
-          
-          
           <img src="/integrantes/Vinícius.jpeg" width="100" heigth="100" alt="Pedro"/> Vinícius Correia de Araújo Barroso / Designer / Conteudista / Revisor - 515055 
+
+                    
+          
+          
+          
+          
+          
+          
           
           
           
