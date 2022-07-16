@@ -1,5 +1,6 @@
 <?php 
 	include('conexao.php');
+	include('protect.php');
 	
 	$sql = "SELECT * FROM historic ORDER BY dat_fin_emp DESC";
 	$result = $mysqli -> query($sql);
