@@ -1,5 +1,6 @@
 <?php    
   include('conexao.php');
+include('protect.php');
   $sql = "SELECT * FROM books ORDER BY id DESC";
 	$result = $mysqli -> query($sql);
   
